@@ -12,18 +12,13 @@ body{
     left:0px;
 	background-color: #0066ff;
 	z-index: 0;
-	width: 100%
-	
+	width: 100%	
 }
 h1{
 	font-family: 微軟正黑體;
 	font-size: 5rem;
-	text-align: center;
 	color: white;
-}
-
-#funsidebtn{
-
+	text-align: center;
 }
 #funside{
 	display: none;
@@ -34,4 +29,8 @@ h1{
 	height: 100%;
 	background-color: black;
 	z-index: 1;
+}
+#funsidebtn1{
+
+
 }
