@@ -22,4 +22,3 @@ sight = sp.select('.rate-content-sight')
 print(sight[17].string)    #即期買入	
 print(sight[18].string)    #即期賣出
 
-
