@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function(){
 	$("#addbtn").click(function(){
 		$("#bg_grey").show(1);
@@ -16,5 +15,3 @@ $(document).ready(function(){
 		$("#funside").animate({width:'0%'});
 	});
 });
-
-</script>

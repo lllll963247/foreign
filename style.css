@@ -6,13 +6,21 @@ body{
 	margin: 0;
 	padding:  0;
 }
-#topbar{
-	position:absolute;
+.bar{
 	top:0px;
     left:0px;
-	background-color: #0066ff;
+	background-color: #0000ff;
 	z-index: -2;
+	height: 15%;
 	width: 100%	
+}
+#bankbar{
+	position: relative;
+	height: 7%;
+	background-color: #0066ff;
+}
+#topbar{
+	position: absolute;
 }
 h1{
 	font-family: 微軟正黑體;
@@ -78,4 +86,15 @@ button > p{
   padding-top: 60px;
 
 }
-
+select{
+	height: 10%;
+	width: 50%;
+	font-size: 2em;
+	border-radius: 10px;
+}
+input{
+	height: 10%;
+	width: 50%;
+	font-size: 2em;
+	border-radius: 10px;
+}
