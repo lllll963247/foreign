@@ -12,6 +12,7 @@ $(document).ready(function(){
 		$("#bg_grey").hide(1);
 		$("#add_div").hide(1);
 		$('#addbtn').show();
+		$("#funside").hide(500);
 		$("#funside").animate({width:'0%'});
 	});
 });
