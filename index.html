@@ -6,37 +6,17 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="function.js"></script>
 	<script type="text/javascript" src="JQuery.js"></script>
-
-
-
-	<script>
-		
-	</script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
 
 	
-
 </head>
 <body id="body">
-	
-	<div id="funside">
-		<h1><a href="rate.html">匯率</a></h1>
-	</div>
-	<button id="funsidebtn1" type="button" onclick="document.getElementById('funside').style.display = 'block'">
-	<img src="picture/funbtn.png">
-	</button>
-	<div id="topbar" class="bar" >
-  		<h1 >上上外幣錢包</h1>
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<div id="bankbar" class="bar">
-		<h1 >銀行</h1>
-	</div>
-	<div id="bg_grey" onclick="">
-	
-	</div>
+	<div w3-include-html="top.html"></div>
+<script>
+    w3.includeHTML();
+</script>
+
+
 	<div id="bank">
 		
 	</div>
@@ -53,6 +33,9 @@
 		
 	</div>
 	<button type="button" id="addbtn" onclick=""><p>+</p></button>
+	<script>
+		includeHTML();
+	</script>
 
 </body>
 </html>
